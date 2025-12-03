@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    background-image: url('texture.jpg');
+    background-repeat: repeat;
+}
+
+/* Header Section */
+.hero-section {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-section .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+.hero-section .btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #5bc0de;
+}
+
+.navbar .btn {
+    font-size: 1rem;
+    padding: 8px 15px;
+}
+
+.navbar .form-control {
+    max-width: 200px;
+}
+
+/* Logo */
+.hero-section .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 120px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.hero-section .logo:hover {
+    transform: scale(1.1);
+}
+
+/* About ClimaWear Section */
+.about {
+    padding: 40px 0;
+    background-color: #e3f2fd;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Featured Products */
+.featured-products .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.featured-products .card:hover {
+    transform: scale(1.05);
+}
+
+/* Best Selling Jacket Section */
+.best-selling .card {
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.best-selling .card-img-top {
+    height: 250px; /* Adjust image height */
+    object-fit: cover; /* Maintain aspect ratio while covering space */
+}
+
+.best-selling h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.best-selling .card-title {
+    font-size: 1.2rem;
+}
+
+.best-selling .card-text {
+    font-size: 1rem;
+}
+
+/* Buy Now Section */
+.buy-now input {
+    width: 80px;
+    text-align: center;
+}
+
+/* Footer Social Icons */
+.social-icons i {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+/* Instagram Icon */
+.social-icons .fab.fa-instagram {
+    color: #E1306C; /* Instagram color */
+}
+
+/* Facebook Icon */
+.social-icons .fab.fa-facebook {
+    color: #1877F2; /* Facebook color */
+}
+
+/* Twitter Icon */
+.social-icons .fab.fa-twitter {
+    color: #1DA1F2; /* Twitter color */
+}
+
+.social-icons i:hover {
+    transform: scale(1.2);
+}
+
+/* Add spacing between icons */
+.social-icons a {
+    margin-right: 15px;
+}
